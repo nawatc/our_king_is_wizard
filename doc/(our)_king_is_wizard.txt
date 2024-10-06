@@ -1,7 +1,25 @@
 art draw
 https://www.pixilart.com/draw
+
 How To Pixel Art - Beginner To PRO Tutorial
 https://www.youtube.com/watch?v=0I_OZ4qQJfY
 
+git Conventional Commits Cheatsheet
+https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
 
-pygame chetsheet
+pygame cheatsheet
+https://canberragpn.github.io/static/doc/PygameCheatSheet.pdf
+
+How to make a basic deltaTime system?
+https://www.reddit.com/r/pygame/comments/k7677j/how_to_make_a_basic_deltatime_system/
+
+A Simple C++ Project Structure
+https://hiltmon.com/blog/2013/07/03/a-simple-c-plus-plus-project-structure/
+
+
+
+
+
+
+
+

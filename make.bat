@@ -9,7 +9,6 @@ SET REPO_PATH="https://github.com/nawatc/our_king_is_wizard"
 @REM  echo "%~1"
 
 IF "%~1"=="" GOTO :PHONY
-@REM IF "%~1"=="clone" GOTO :CLONE
 IF "%~1"=="--help" GOTO :HELPER
 
 GOTO :END
@@ -29,29 +28,24 @@ GOTO :END
 
     GOTO :END
 
-:CLONE
-    @REM git clone
-    cd %THIS_PATH%
-    git clone %REPO_PATH%
-    GOTO :END
 
+@REM :CLONE
+@REM     @REM git clone
+@REM     cd %THIS_PATH%
+@REM     git clone %REPO_PATH%
+@REM     GOTO :END
+@REM :COMMIT
+@REM     @REM git commit
 
+@REM     GOTO :END
+@REM :CLEAN
+@REM     @REM Clean
 
+@REM     GOTO :END
+@REM :BUILD
+@REM     @REM Build
 
-
-
-:COMMIT
-    @REM git commit
-
-    GOTO :END
-:CLEAN
-    @REM Clean
-
-    GOTO :END
-:BUILD
-    @REM Build
-
-    GOTO :END
+@REM     GOTO :END
 
 :END
     @REM This is the end for you. procress
